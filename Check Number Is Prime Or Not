@@ -1,0 +1,12 @@
+public class You {
+public static void main(String[]args) {
+	int n=7;
+	int i=2;
+	for(;i<=7;i++)
+	{
+		if(n%i==0)
+			break;
+	}
+	System.out.println(n==i?"prime":"not an prime");
+}
+}
