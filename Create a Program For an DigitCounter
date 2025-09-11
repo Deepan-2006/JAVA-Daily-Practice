@@ -1,0 +1,14 @@
+public class Riya {
+    public static void main(String[] args) {
+		int n=1222342;
+		int target=2;
+		int count=0;
+		while(n!=0) {
+			int last=n%10;
+			if(target==last)
+				count++;
+				n/=10;
+		}
+System.out.println(count);
+	}
+}
