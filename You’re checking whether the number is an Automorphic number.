@@ -1,0 +1,13 @@
+public class Riya {
+ public static void main(String[] args) {
+        int n = 625;          
+        int sq = n * n;     
+        int last = 1;
+        int temp = n;
+        while (temp > 0) {
+            last = last * 10;
+            temp = temp / 10;
+        }
+        System.out.println(sq % last == n ? "auto" : "not an auto");
+    }
+}
