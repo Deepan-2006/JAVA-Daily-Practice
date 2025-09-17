@@ -1,0 +1,8 @@
+public class Riyaa { 
+public static void main(String[]args)
+{
+double d=2.2022;
+int a=(int)d;
+	System.out.print(a);
+}
+}
