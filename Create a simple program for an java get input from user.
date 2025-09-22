@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Riyaa { 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter name: ");
+        String dee = sc.nextLine();
+        System.out.println("You entered: " + dee);
+    }
+}
