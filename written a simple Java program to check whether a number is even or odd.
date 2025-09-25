@@ -1,0 +1,12 @@
+public class Riya{
+    public static void main(String[] args) {
+        int n=2;
+        if(n%2==0)
+        {
+        	System.out.println("Even num:"+n);
+        }
+        else {
+        	System.out.println("odd num:"+n);
+        }
+    }
+}
